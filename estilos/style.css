@@ -41,6 +41,10 @@ article{
     margin: 60px;
     font-size: 2em;
 }
+#p2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.199);
+}
 
 footer{
     background-color: black;
