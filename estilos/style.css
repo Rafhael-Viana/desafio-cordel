@@ -10,7 +10,7 @@ main{
 }
 header{
     background-color: black;
-    height: 236px;
+    height: 238px;
 }
 header h1{
     margin: auto;
@@ -41,11 +41,31 @@ article{
     margin: 60px;
     font-size: 2em;
 }
+#segpar{
+    height: 500px;
+    background:white url(../pacote-d012/imagens/background001.jpg) center bottom no-repeat fixed;
+    background-size: 120%;
+}
+
+#fourthp{
+    background: white url(../pacote-d012/imagens/background002.jpg) center no-repeat fixed;
+}
+#p1{
+    height: 650px;
+    
+}
+#p1>p{
+    font-size: 1.2em;
+    width: 500px;
+}
 #p2{
     color: white;
     background-color: rgba(0, 0, 0, 0.199);
 }
-
+#p4{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.199);
+}
 footer{
     background-color: black;
 }
