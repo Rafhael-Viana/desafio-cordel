@@ -5,6 +5,9 @@
     margin: 0px;
     padding: 0px;
 }
+html, body{
+    min-height: 100vh;
+}
 main{
     font: normal normal 1em 'Sriracha',cursive;
 }
@@ -17,8 +20,8 @@ header h1{
     padding-top: 50px;
     color: white;
     text-align: center;
-    font: normal bold 4.2em 'Passion One', cursive;
-    
+    /* font-variant: small-caps; */
+    font: bold 4.2em 'Passion One', cursive;
 }
 .lgrande{
     font-size: 1.5em;
@@ -27,6 +30,7 @@ header p{
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 header a{
     color: white;
@@ -38,20 +42,22 @@ header a:hover{
 
 article{
     max-width: 400px;
-    margin: 60px;
+    padding: 10vh 30px;
     font-size: 2em;
+    line-height: 2em;
 }
 #segpar{
-    height: 700px;
-    background:white url(../pacote-d012/imagens/background001.jpg) right bottom no-repeat fixed;
-    background-size: 120%;
+    height: 80vh;
+    background:white url(../pacote-d012/imagens/background001.jpg) center bottom no-repeat fixed;
+    /* background-size: 140%; */
+    position: relative;
 }
 
 #fourthp{
     background: white url(../pacote-d012/imagens/background002.jpg) center no-repeat fixed;
 }
 #p1{
-    height: 650px;
+    /* height: 650px; */
     
 }
 #p1>p{
@@ -61,6 +67,10 @@ article{
 #p2{
     color: white;
     background-color: rgba(0, 0, 0, 0.199);
+    position: absolute;
+
+    left: 10px;
+    top: 20px;
 }
 
 #p4{
@@ -71,7 +81,7 @@ footer{
     background-color: black;
 }
 footer p{
-    padding: 7px;
+    padding: 8px;
     text-align: center;
     color: white;
     font: normal normal 1em 'Verdana', Arial, sans-serif;
