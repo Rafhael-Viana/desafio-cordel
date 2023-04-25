@@ -42,8 +42,8 @@ article{
     font-size: 2em;
 }
 #segpar{
-    height: 500px;
-    background:white url(../pacote-d012/imagens/background001.jpg) center bottom no-repeat fixed;
+    height: 700px;
+    background:white url(../pacote-d012/imagens/background001.jpg) right bottom no-repeat fixed;
     background-size: 120%;
 }
 
@@ -62,6 +62,7 @@ article{
     color: white;
     background-color: rgba(0, 0, 0, 0.199);
 }
+
 #p4{
     color: white;
     background-color: rgba(0, 0, 0, 0.199);
