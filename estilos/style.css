@@ -41,7 +41,7 @@ header a:hover{
     text-decoration: underline;
 }
 main{
-    font: normal normal 3.4vw var(--fonte03);
+    font: normal normal 3.5vw var(--fonte03);
 }
 section{
     padding-top: 10vh;
@@ -50,20 +50,25 @@ section{
 }
 section p{
     padding-left: 30px;
+    padding-bottom: 1em;
 }
 #segpar{
-    background:white url(../pacote-d012/imagens/background001.jpg) center bottom no-repeat fixed;
+    background:white url(../pacote-d012/imagens/background001.jpg) center right no-repeat fixed;
     position: relative;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 6px 6px 13px inset rgba(0, 0, 0, 0.493);
 }
 
 #fourthp{
     background: white url(../pacote-d012/imagens/background002.jpg) center no-repeat fixed;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 6px 6px 13px inset rgba(0, 0, 0, 0.493);
 }
 
 #p2{
     display: inline-block;
     color: white;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.473);
 }
 
 #p4{
